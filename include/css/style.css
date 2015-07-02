@@ -1,0 +1,22 @@
+body{font:13px/1.8em serif,"Microsoft YaHei"; color:#3F3F3F;}
+h1{border-bottom:1px solid #BC0303;padding:6px 6px 6px 22px; background:url(images/tree.png) no-repeat 5px 10px;}
+hr{height:1px; color:#CCC; background-color:#CCC; margin:0px;}
+hr{display:none;}
+.main{width:900px; margin:0 auto; padding: 10px 0;}
+img{vertical-align:middle; margin-bottom:2px;}
+table{width:100%; margin-top:20px;}
+th{text-align:left; font-weight:normal;}
+table th,table td{padding:0px 10px; line-height:2.2em; vertical-align:middle;}
+table tr:nth-child(2),table tr:last-child{display:none;}
+table th:nth-child(3),table th:nth-child(4){text-align:right;}
+table th:nth-child(1){width:16px; padding-right:0px;}
+table th:nth-child(2){width:600px;padding-left:20px;}
+table th{border-bottom:1px solid #CCC;}
+table td:nth-child(1){padding-right:0px;}
+th a{color:#666; text-decoration:none; font-weight:normal; padding-right: 12px; background:url(images/ascending.png) no-repeat right center;}
+table td{border-bottom:1px solid #CCC; color:#999;}
+td a{color:#BC0303; padding-left:10px; text-decoration: none; display:block;}
+td a:hover{background:#EEE;}
+
+.footer{margin-top:10px; color:#999;}
+.footer a{color:#999; text-decoration: none;}

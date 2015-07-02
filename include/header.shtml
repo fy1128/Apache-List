@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Ying 的文档列表： <!--#echo var="REQUEST_URI"--></title>
+        <link rel="stylesheet" type="text/css" href="/include/css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="/include/css/style.css" />
+        <!--#if expr='-n v("mobile")'-->
+        <link rel="stylesheet" type="text/css" href="/include/css/mobile.css" />
+		<!--#endif-->
+		<script type="text/javascript" src="/include/js/tool.js"></script>
+     </head>
+     <body>
+		<div class="main" id="main">
+		<h1>当前目录：<span id="current_dir"><!--#echo var="REQUEST_URI"--></span></h1>

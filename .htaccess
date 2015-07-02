@@ -1,0 +1,111 @@
+################################
+# h5ai 0.15.2  (js)
+# customized .htaccess
+################################
+
+
+# Options  +Indexes
+# Options  +FollowSymLinks
+
+BrowserMatchNoCase mobile Mobile
+
+################################
+# h5ai header and footer
+################################
+
+HeaderName           /include/header.shtml
+ReadmeName           /include/footer.shtml
+
+
+################################
+# hide h5ai folder and config files from index
+################################
+
+IndexIgnore          .htaccess include
+
+
+################################
+# table options
+################################
+
+# syntax for default sort order is: IndexOrderDefault Ascending|Descending Name|Date|Size
+IndexOrderDefault    Ascending Name
+
+IndexOptions         Type=text/html
+IndexOptions         Charset=UTF-8
+IndexOptions         FancyIndexing
+IndexOptions         HTMLTable
+IndexOptions         XHTML
+IndexOptions         SuppressHTMLPreamble
+IndexOptions         SuppressDescription
+IndexOptions         FoldersFirst
+IndexOptions         IgnoreCase
+IndexOptions         VersionSort
+IndexOptions         NameWidth=*
+
+
+################################
+# icon mapping
+################################
+
+AddIcon              /include/icons/16x16/folder-parent.png      ..
+AddIcon              /include/icons/16x16/folder.png      ^^DIRECTORY^^
+AddIcon              /include/icons/16x16/blank.png       ^^BLANKICON^^
+
+AddIcon              /include/icons/16x16/readme.png      README
+AddIcon              /include/icons/16x16/copying.png     COPYING  LICENSE
+AddIcon              /include/icons/16x16/install.png     INSTALL
+AddIcon              /include/icons/16x16/authors.png     AUTHORS
+AddIcon              /include/icons/16x16/log.png         LOG  Log  log
+
+AddIcon              /include/icons/16x16/css.png         .less
+AddIcon              /include/icons/16x16/script.png      .conf  .ini  .sh  .shar  .csh  .ksh  .tcl
+AddIcon              /include/icons/16x16/makefile.png    .pom  pom.xml  build.xml
+AddIcon              /include/icons/16x16/bin.png         .so  .o
+
+AddIcon              /include/icons/16x16/archive.png     .tar.gz  .tgz  .tar.bz2
+AddIcon              /include/icons/16x16/zip.png         .zip  .Z  .z  .jar  .war  .gz  .bz2
+AddIcon              /include/icons/16x16/tar.png         .tar
+AddIcon              /include/icons/16x16/pdf.png         .pdf
+AddIcon              /include/icons/16x16/deb.png         .deb
+AddIcon              /include/icons/16x16/rpm.png         .rpm
+AddIcon              /include/icons/16x16/cd.png          .iso  .cue
+
+AddIconByType        /include/icons/16x16/png.png         image/png
+AddIconByType        /include/icons/16x16/jpg.png         image/jpeg
+AddIconByType        /include/icons/16x16/gif.png         image/gif
+AddIconByType        /include/icons/16x16/ico.png         image/x-icon
+AddIconByType        /include/icons/16x16/bmp.png         image/x-ms-bmp
+
+AddIconByType        /include/icons/16x16/html.png        text/html
+AddIconByType        /include/icons/16x16/css.png         text/css
+AddIconByType        /include/icons/16x16/xml.png         application/xml
+AddIconByType        /include/icons/16x16/js.png          application/javascript  application/json
+AddIconByType        /include/icons/16x16/php.png         application/x-httpd-php
+
+AddIconByType        /include/icons/16x16/py.png          text/x-python
+AddIconByType        /include/icons/16x16/rb.png          application/x-ruby
+AddIconByType        /include/icons/16x16/java.png        text/x-java
+AddIconByType        /include/icons/16x16/cpp.png         text/x-c++src
+AddIconByType        /include/icons/16x16/hpp.png         text/x-c++hdr
+AddIconByType        /include/icons/16x16/c.png           text/x-csrc
+AddIconByType        /include/icons/16x16/h.png           text/x-chdr
+
+AddIconByType        /include/icons/16x16/pdf.png         application/pdf
+
+AddIconByType        /include/icons/16x16/rtf.png         text/rtf  application/rtf
+AddIconByType        /include/icons/16x16/tex.png         text/x-tex
+AddIconByType        /include/icons/16x16/makefile.png    text/x-makefile
+
+AddIconByType        /include/icons/16x16/bin.png         application/java-vm
+AddIconByType        /include/icons/16x16/exe.png         application/x-executable application/x-msdos-program
+
+AddIconByType        /include/icons/16x16/text.png        text/*
+AddIconByType        /include/icons/16x16/image.png       image/*
+AddIconByType        /include/icons/16x16/audio.png       audio/*
+AddIconByType        /include/icons/16x16/video.png       video/*
+
+AddIconByEncoding    /include/icons/16x16/zip.png         x-compress  x-gzip  x-bzip2
+
+DefaultIcon          /include/icons/16x16/unknown.png
+
