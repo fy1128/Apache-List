@@ -1,4 +1,4 @@
-<div class="footer">我的IP:<!--#echo var="REMOTE_ADDR" --> 时间 <!--#echo var="DATE_LOCAL"--></div>
+<div class="footer">我的IP:<!--#echo var="REMOTE_ADDR" --> 时间: <!--#config timefmt="%A %Y/%m/%d %T" --> <!--#echo var="DATE_LOCAL"--></div>
 </div>
 </body>
 </html>
